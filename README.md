@@ -2,6 +2,9 @@
 
 > This course was originally developed for [BIOS2](https://bios2.usherbrooke.ca/2021/02/21/training-point-count-data-analysis/) held on March 16, 18, 23, 25 - Pacific: 9am-12pm, Mountain: 10am-1pm, Central: 11am-2pm, Eastern: 12-3pm
 
+<img src="https://github.com/psolymos/qpad-workshop/raw/main/images/thumb.jpg" alt="QPAD thumbnail" width="80%" align="center" />
+
+
 This course is aimed towards researchers analyzing field observations, who are often faced by data heterogeneities due to field sampling protocols changing from one project to another, or through time over the lifespan of projects, or trying to combine 'legacy' data sets with new data collected by recording units.
 
 Such heterogeneities can bias analyses when data sets are integrated inadequately, or can lead to information loss when filtered and standardized to common standards. Accounting for these issues is important for better inference regarding status and trend of species and communities.
@@ -12,6 +15,9 @@ The course emphasizes critical thinking and active learning through hands on pro
 
 The expected outcome of the course is a solid foundation for further professional development via increased confidence in applying these methods for field observations.
 
+<img src="https://github.com/psolymos/qpad-workshop/raw/main/images/qpad-sketch.jpg" alt="QPAD overview" width="50%" />
+
+
 ## Instructor
 
 [**Dr. Peter Solymos**](https://peter.solymos.org) \
@@ -20,27 +26,31 @@ The expected outcome of the course is a solid foundation for further professiona
 
 ## Outline
 
-> Note: this outline is preliminary and subject to change.
-
 Each day will consist of 3 sessions, roughly one hour each, with short breaks in between.
 
-| Session | Topic | Files |
-| --- | --- | :---: |
-| **Day 1** |  **Naive techniques** |    |
-|  |  1. Introductions |  [Slides](day1-1-intro.pdf)  |
-|  |  2. Organizing point count data |  [Notes](day1-2-data-processing.Rmd)  |
-|  |  3. Regression techniques  |  [Notes](day1-3-regression.Rmd)  |
-| **Day 2** |  **Behavioral complexities**  |    |
-|  |  1. Statistical assumptions and nuisance variables  |  [Slides](day2-1-intro.pdf)  |
-|  |  2. Removal modeling techniques  |  [Notes](day2-2-behavior.Rmd)  |
-| **Day 3** |  **The detection process** |    |
-|  |  1. Distance sampling |    |
-|  |  2. Calibrating population density  |    |
-|  |  3. Observer effects  |    |
-| **Day 4** |  **Behavioral complexities**  |    |
-|  |  1. Marginal, joint, and conditional models  |    |
-|  |  2. Roadside surveys  |    |
-|  |  3. QPAD overview  |    |
+> The video recordings from the workshop can be found on [YouTube](https://www.youtube.com/watch?v=cXGXvAOqEng&list=PLH424kyZX5ip0PfOo7g13nJEQNVxZlMOh).
+
+| Session | Topic | Files | Videos |
+| --- | --- | :---: | :---: |
+| **Day 1** |  **Naive techniques** |    |    |
+|  |  1. Introductions |  [Slides](https://peter.solymos.org/qpad-workshop/day1-1-intro.pdf)  | [Video](https://youtu.be/cXGXvAOqEng) |
+|  |  2. Organizing point count data |  [Notes](https://peter.solymos.org/qpad-workshop/day1-2-data-processing.html)  | [Part 1](https://youtu.be/4PLyaU6bqRc), [Part 2](https://youtu.be/dcsiv-v0UgA) |
+|  |  3. Regression techniques  |  [Notes](https://peter.solymos.org/qpad-workshop/day1-3-regression.html)  | [Part 1](https://youtu.be/z_TpcF0FD4o), [Part 2](https://youtu.be/ZdTgdTqxFSM) |
+| **Day 2** |  **Behavioral complexities**  |    |    |
+|  |  1. Statistical assumptions and nuisance variables  |  [Slides](https://peter.solymos.org/qpad-workshop/day2-1-intro.pdf)  | [Video](https://youtu.be/8v3Uf_aILxI) |
+|  |  2. Behavioral complexities  |  [Notes](https://peter.solymos.org/qpad-workshop/day2-2-behavior.html)  | [bSims](https://youtu.be/gJ11_wlsEfU), [Video](https://youtu.be/UgGeaxMCs2c) |
+|  |  3. Removal modeling techniques  |  [Notes](https://peter.solymos.org/qpad-workshop/day2-3-removal.html)  | [Video](https://youtu.be/ny0ED9cxzeg) |
+|  |  4. Finite mixture models and testing assumptions  |  [Notes](https://peter.solymos.org/qpad-workshop/day2-4-mixtures.html)  | [Mixtures](https://youtu.be/A1cnzXMMlxU), [Testing](https://youtu.be/flF5NL73ZZE) |
+| **Day 3** |  **The detection process** |    |    |
+|  |  1. The detection process  |  [Slides](https://peter.solymos.org/qpad-workshop/day3-1-intro.pdf)  | [Video](https://youtu.be/CkdYEF_hZqY) |
+|  |  2. Distance sampling and density |  [Notes](https://peter.solymos.org/qpad-workshop/day3-2-detection.html)  | [Video](https://youtu.be/x8GfKDEJcrA) |
+|  |  3. Estimating population density |  [Notes](https://peter.solymos.org/qpad-workshop/day3-2-detection.html)  | [Video](https://youtu.be/yeoGxRQd6o0) |
+|  |  4. Assumptions |  [Notes](https://peter.solymos.org/qpad-workshop/day3-2-detection.html)  | [Video](https://youtu.be/o0bx-vNCaL0) |
+| **Day 4** |  **Coming full circle**  |    |    |
+|  |  1. QPAD overview  |  [Slides](https://peter.solymos.org/qpad-workshop/day4-1-intro.pdf)  | [Video](https://youtu.be/TU9rcwY2Y-g) |
+|  |  2. Models with detectability offsets  |  [Notes](https://peter.solymos.org/qpad-workshop/day4-2-qpad.html)  | [Offsets](https://youtu.be/vw_WO2hgNwk), [Models](https://youtu.be/Cy68E1GyNVU) |
+|  |  3. Model validation and error propagation  |  [Notes](https://peter.solymos.org/qpad-workshop/day4-2-qpad.html)  | [Validation](https://youtu.be/lRcJzfE838k), [Error](https://youtu.be/na5cTYNq2HM) |
+|  |  4. Recordings, roadsides, closing remarks  |  [Notes](https://peter.solymos.org/qpad-workshop/day4-3-recordings.html)  | [Video](https://youtu.be/ckEDGdLA_J4) |
 
 
 ## Before the course
@@ -91,10 +101,34 @@ qpad_local(day=1)
 
 LOCAL copies will not be tracked and overwritten by git.
 
-
 ## After the course
 
 Expect some follow up :)
+
+## Useful resources
+
+- [Using the QPAD package to get offsets based on estimates from the Boreal Avian Modelling Project's database](https://github.com/ABbiodiversity/recurring/blob/master/offset/README.md)
+- [NA-POPS: Point count Offsets for Population Sizes of North America landbirds](http://na-pops.org/)
+
+## References
+
+Sólymos, P., Toms, J. D., Matsuoka, S. M., Cumming, S. G., Barker, N. K. S., Thogmartin, W. E., Stralberg, D., Crosby, A. D., Dénes, F. V., Haché, S., Mahon, C. L., Schmiegelow, F. K. A., and Bayne, E. M., 2020. Lessons learned from comparing spatially explicit models and the Partners in Flight approach to estimate population sizes of boreal birds in Alberta, Canada. _Condor_, 122: 1-22. [PDF](https://drive.google.com/file/d/115WgtPd4zUSIFfSTHbWYs8OCHNdpKkh5/view?usp=sharing) 
+
+Sólymos, P., Matsuoka, S. M., Cumming, S. G., Stralberg, D., Fontaine, P., Schmiegelow, F. K. A., Song, S. J., and Bayne, E. M., 2018. Evaluating time-removal models for estimating availability of boreal birds during point-count surveys: sample size requirements and model complexity. _Condor_, 120: 765-786. [PDF](https://drive.google.com/file/d/13Czd_A82P0ZhIlvAEabxdHfmaZcJaNU3/view?usp=sharing)
+
+Sólymos, P., Matsuoka, S. M., Stralberg, D., Barker, N. K. S., and Bayne, E. M., 2018. Phylogeny and species traits predict bird detectability. _Ecography_, 41: 1595-1603. [PDF](https://drive.google.com/file/d/1CRKl-bh1tqxddijEWZoNcDO_xFIgOfWZ/view?usp=sharing)
+
+Van Wilgenburg, S. L., Sólymos, P., Kardynal, K. J. and Frey, M. D., 2017. Paired sampling standardizes point count data from humans and acoustic recorders. _Avian Conservation and Ecology_, 12(1):13. [PDF](https://drive.google.com/file/d/0B-q59n6LIwYPOTZyTXlDb0xFQTA/view?usp=sharing)
+
+Yip, D. A., Leston, L., Bayne, E. M., Sólymos, P. and Grover, A., 2017. Experimentally derived detection distances from audio recordings and human observers enable integrated analysis of point count data. _Avian Conservation and Ecology_, 12(1):11. [PDF](https://drive.google.com/file/d/0B-q59n6LIwYPQ2F6d1llQ3lPTzg/view?usp=sharing)
+
+Sólymos, P., and Lele, S. R., 2016. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. _Methods in Ecology and Evolution_, 7:196-205. [PDF](https://drive.google.com/file/d/0B-q59n6LIwYPRE5tVlRMSmhLWmM/view?usp=sharing)
+
+Matsuoka, S. M., Mahon, C. L., Handel, C. M., Sólymos, P., Bayne, E. M., Fontaine, P. C., and Ralph, C. J., 2014. Reviving common standards in point-count surveys for broad inference across studies. _Condor_ 116:599-608. [PDF](https://drive.google.com/file/d/0B-q59n6LIwYPcGZNS3JSRUlBdDQ/view?usp=sharing)
+
+Sólymos, P., Matsuoka, S. M., Bayne, E. M., Lele, S. R., Fontaine, P., Cumming, S. G., Stralberg, D., Schmiegelow, F. K. A. & Song, S. J., 2013. Calibrating indices of avian density from non-standardized survey data: making the most of a messy situation. _Methods in Ecology and Evolution_ 4:1047-1058. [PDF](https://drive.google.com/file/d/0B-q59n6LIwYPV0RNUFU1N1dmS1E/view?usp=sharing)
+
+Matsuoka, S. M., Bayne, E. M., Sólymos, P., Fontaine, P., Cumming, S. G., Schmiegelow, F. K. A., & Song, S. A., 2012. Using binomial distance-sampling models to estimate the effective detection radius of point-counts surveys across boreal Canada. _Auk_ 129:268-282. [PDF](https://drive.google.com/file/d/0B-q59n6LIwYPbFhhRUtZNWQyMk0/view?usp=sharing)
 
 ## License
 
