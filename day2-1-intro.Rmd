@@ -167,7 +167,7 @@ include_graphics("images/qpad_fig3.jpg")
 ***
 
 # Availability really varies
-
+Ap: Availability might vary over time
 \centering
 ```{r echo=FALSE,out.width="200px"}
 include_graphics("images/solymos-2018-condor-fig-5.png")
@@ -176,7 +176,7 @@ include_graphics("images/solymos-2018-condor-fig-5.png")
 ***
 
 # Biological mechanisms
-
+AP: Biological mechanism that drive delta (prob. of detection)
 - Migration timing drives phenology for many species, e.g. ordinal day of year (`DAY`),
 - when study spans across biomes, use time since local spring (multi-year average),
 - or time since spring green up, last snow day, etc. based on actual survey year,
@@ -186,6 +186,7 @@ include_graphics("images/solymos-2018-condor-fig-5.png")
 ***
 
 # Perceptibility varies too
+AP: perception may vary across habitat. Distance and type of habitat can influence detectability
 
 \centering
 ```{r echo=FALSE,out.width="300px"}
@@ -195,6 +196,7 @@ include_graphics("images/qpad_fig4.jpg")
 ***
 
 # Physical mechanisms
+AP: These below might drive difference in detectability across habitats
 
 - Trees block the transmission of sound
 - Broad leaves rustle more
